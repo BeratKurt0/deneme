@@ -30,4 +30,5 @@ git branch -m master main --> dal ismini "main" olarak değiştirir.
 (branch: dal ile ilgili işlem); (-m: move - taşıma komutu); (master main: eski adı, yeni adla değiştirir.)
 
 git push -u orign main --> uzak depoya dalı bağlamak için kullanılır.
-(push: uzak sunucuya yükleme işlemi); (-u: set - ayarla); (orign: uzaktaki bağlantıya verilen takma isim. genellikle 'orign' olur.)
+(push: uzak sunucuya yükleme işlemi); (-u: set - ayarla); (orign: uzaktaki bağlantıya verilen takma isim. genellikle 'orign' olur.) (main: dal ismini belirtir.)
+
