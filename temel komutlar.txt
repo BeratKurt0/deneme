@@ -29,6 +29,8 @@ git rm -r "klasör ismi" --> klasör siler. (-r: silinen klasörün alt dalları
 git branch -m master main --> dal ismini "main" olarak değiştirir. 
 (branch: dal ile ilgili işlem); (-m: move - taşıma komutu); (master main: eski adı, yeni adla değiştirir.)
 
+git remote add origin https://github.com --> uzak sunucuyla yerel dosyayı bağlamak için kullanılır.
+
 git push -u orign main --> uzak depoya dalı bağlamak ve yüklemek için kullanılır.
 (push: uzak sunucuya yükleme işlemi); (-u: set - ayarla); (orign: uzaktaki bağlantıya verilen takma isim. genellikle 'orign' olur.) (main: dal ismini belirtir.)
 
@@ -55,4 +57,9 @@ git push -u origin main
 git remote -v --> üzerinde çalışılan projenin bağlı olduğu uzak sunucuları listeler.
 (remote: yönet); (-v: verbose - ayrıntılı url)
 
+git pull --> Sunucudan bulunan kaynak dosyalarını mevcut projenizdeki dosyalara çeker ve birleştirir.
 
+git clone https://github.com --> projeyi ilk defa alacaksanız bu komutla projenin bir kopyasını dosyanıza alırsınız.
+
+ŞU ANLIK TÜM DEĞİŞİKLİKLER BUNLARDIR...
+----------------------------------------
