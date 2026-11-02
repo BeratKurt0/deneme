@@ -29,6 +29,30 @@ git rm -r "klasör ismi" --> klasör siler. (-r: silinen klasörün alt dalları
 git branch -m master main --> dal ismini "main" olarak değiştirir. 
 (branch: dal ile ilgili işlem); (-m: move - taşıma komutu); (master main: eski adı, yeni adla değiştirir.)
 
-git push -u orign main --> uzak depoya dalı bağlamak için kullanılır.
+git push -u orign main --> uzak depoya dalı bağlamak ve yüklemek için kullanılır.
 (push: uzak sunucuya yükleme işlemi); (-u: set - ayarla); (orign: uzaktaki bağlantıya verilen takma isim. genellikle 'orign' olur.) (main: dal ismini belirtir.)
+
+--------------------------------
+PROJE YÜKLEME ADIMLARI:
+
+# 1. Klasörü bir Git projesi yapın
+git init
+
+# 2. İçindeki tüm dosyaları seçin (nokta 'her şey' demektir)
+git add .
+
+# 3. Bu dosyaları "İlk yükleme" notuyla bilgisayarınıza kaydedin
+git commit -m "İlk yükleme"
+
+# 4. Bilgisayarınızı GitHub'daki boş deponuza bağlayın (Linki kendinizinkiyle değiştirin)
+git remote add origin https://github.com
+
+# 5. Dosyaları GitHub'a gönderin
+git push -u origin main
+
+--------------------------------
+
+git remote -v --> üzerinde çalışılan projenin bağlı olduğu uzak sunucuları listeler.
+(remote: yönet); (-v: verbose - ayrıntılı url)
+
 
