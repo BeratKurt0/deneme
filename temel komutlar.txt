@@ -1,0 +1,33 @@
+git init --> seçili yerel klasör üzerinde versiyon kontrol sistemini ayağa kaldırmak için kullanılır. (initalizer: başlatıcı)
+
+git status --> git tarafından takip edilen dosyaların durumu için kullanılır. hangi dosyaların takip edilip hangilerinin edilmediğini gösterir. (status: durum)
+
+git add <dosya_ismi> --> belirtilen dosya veya klasörü takibe alır. Tümünü takibe almak için "git add ." komutu kullanılır. (add: ekle)
+
+git rm --cached <dosya_ismi> --> bu sefer takipten çıkar. (rm: remove - kaldırmak)
+
+git cofig user.name --> kayıtlı kullanıcı adını görmek için kullanılır (config: yapılandırma)
+
+git cofig user.email --> kayıtlı emaili görmak için kullanılır.
+
+git config --global user.name "Yeni Kullanıcı Adınız" --> yeni kullanıcı adı tanımlamak için kullanılır.
+
+git config --global user.email "Yeni Kullanıcı Emailiniz" --> yeni kullanıcı emaili tanımlamak için kullanılır.
+
+pwd --> mevcut klasörün bulunduğu dizini gösterir. (pwd: print working directory)
+
+cd "klasör dizini" --> belirtilen klasör dizinine gider. (cd: change directory)
+
+ls --> klasörün içeriğini görüntüler. gizli klasörlerle beraber görüntülemek için "ls -a" kullanılır. (ls: list)
+
+clear --> terminali temizler.
+
+mkdir "klasör_ismi" --> yeni bir klasör oluşturur. (mkdir: make directory)
+
+git rm -r "klasör ismi" --> klasör siler. (-r: silinen klasörün alt dallarını da siler)
+
+git branch -m master main --> dal ismini "main" olarak değiştirir. 
+(branch: dal ile ilgili işlem); (-m: move - taşıma komutu); (master main: eski adı, yeni adla değiştirir.)
+
+git push -u orign main --> uzak depoya dalı bağlamak için kullanılır.
+(push: uzak sunucuya yükleme işlemi); (-u: set - ayarla); (orign: uzaktaki bağlantıya verilen takma isim. genellikle 'orign' olur.)
